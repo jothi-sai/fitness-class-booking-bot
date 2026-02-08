@@ -1,4 +1,6 @@
 The Fitness Class Booking Bot is an interactive AI-powered chatbot designed to help users explore, track, and book fitness classes through a simple chat-based interface. It offers a smooth, conversational experience similar to a real messaging application, making fitness class management easy and accessible.
+
+
 🚀 Features
 Interactive Chat Interface
 Step-by-step conversational flow for seamless class booking.
@@ -12,5 +14,7 @@ View Bookings
 Check all previously booked fitness sessions in one place.
 Upcoming Sessions
 Track upcoming and next-day fitness classes effortlessly.
+
+
 🎯 Purpose
 This chatbot reduces manual workload for gym staff while providing members with instant access to schedules, trainer information, and booking confirmations. It is user-friendly, efficient, and scalable—perfect for modern fitness centers aiming to enhance customer engagement through automation

@@ -5,14 +5,19 @@ The Fitness Class Booking Bot is an interactive AI-powered chatbot designed to h
 
 Interactive Chat Interface
 Step-by-step conversational flow for seamless class booking.
+
 Browse Fitness Classes
 View available classes such as Yoga, HIIT, Strength Training, Zumba, and more.
+
 Trainer Profiles
 Explore trainer details, expertise, and availability schedules.
+
 Book Classes
 Easily select a class, trainer, date, and time through chat.
+
 View Bookings
 Check all previously booked fitness sessions in one place.
+
 Upcoming Sessions
 Track upcoming and next-day fitness classes effortlessly.
 

@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  background: url("https://images.unsplash.com/photo-1599058917212-d750089bc07e")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text span {
+  color: #b4ff00;
+}
+
+.hero button {
+  padding: 12px 25px;
+  background: #b4ff00;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background: #111;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: #b4ff00;
+  margin-bottom: 15px;
+}
+
+/* PRICING */
+.pricing {
+  padding: 50px;
+  text-align: center;
+}
+
+.price {
+  background: #111;
+  margin: 15px auto;
+  padding: 20px;
+  width: 300px;
+  font-size: 18px;
+  border-left: 5px solid #b4ff00;
+}
+
+/* QUOTE */
+.quote {
+  background: #1a1a1a;
+  padding: 40px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* CHAT TOGGLE BUTTON */
+.chat-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #b4ff00;
+  color: black;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* CHATBOT */
+.chatbot {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 300px;
+  height: 420px;
+  background: white;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+.chat-header {
+  background: #b4ff00;
+  padding: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.minimize {
+  cursor: pointer;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f5f5f5;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.chat-input button {
+  background: #b4ff00;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.user {
+  background: #b4ff00;
+  margin-left: auto;
+}
+
+.bot {
+  background: #ddd;
+}
+/* CLASSES SECTION */
+.classes {
+  padding: 50px;
+  text-align: center;
+  background: #0f0f0f;
+}
+
+.class-card {
+  background: #111;
+  border: 1px solid #222;
+  margin: 20px auto;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.class-card h3 {
+  color: #b4ff00;
+}
+
+.class-card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #b4ff00;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* TRAINERS SECTION */
+.trainers {
+  padding: 60px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.trainer-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.trainer-card {
+  background: #1a1a1a;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.trainer-card:hover {
+  transform: translateY(-5px);
+}
+
+.trainer-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.trainer-card h3 {
+  margin: 10px 0 5px;
+  color: #b4ff00;
+}
+
+.trainer-card .role {
+  font-weight: bold;
+  margin-bottom: 8px;
+}

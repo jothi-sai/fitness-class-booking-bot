@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Yoga",
+    "trainer": "Anita",
+    "time": "7:00 AM"
+  },
+  {
+    "id": 2,
+    "name": "HIIT",
+    "trainer": "Rahul",
+    "time": "6:00 PM"
+  },
+  {
+    "id": 3,
+    "name": "Zumba",
+    "trainer": "Priya",
+    "time": "5:00 PM"
+  }
+]
